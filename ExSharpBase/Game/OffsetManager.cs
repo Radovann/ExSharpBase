@@ -8,7 +8,7 @@ namespace ExSharpBase.Game
 
         public class Instances
         {
-            public const int SPELL_BOOK = 0x478;
+            public const int SPELL_BOOK = 0x2720;
 
             //Version 10.25 //
             public static readonly int
