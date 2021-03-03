@@ -8,22 +8,22 @@ namespace ExSharpBase.Game
 
         public class Instances
         {
-            public const int SPELL_BOOK = 0x2708;
+            public const int SPELL_BOOK = 0x478;
 
-            //Version 10.20.337.6669 [PUBLIC] // 8B 44 24 04 BA ? ? ? ? 2B D0
+            //Version 10.25 //
             public static readonly int
-                LocalPlayer = BaseAddress + 0x34EEDE4; // 10.25.348.1797// string xref blueHero -> Above "hero" subrtn
+                LocalPlayer = BaseAddress + 0x2f792b8;
 
             public static readonly int
                 Renderer = BaseAddress +
-                           0x35179E4; // 10.25.348.1797// 8B 15 ? ? ? ? 83 EC 08 F3 // ["blurKernelSigma", +0x27F] // xref the string, move -0x27f there should be a dword.
+                           0x2f9e33c; /
 
             public static readonly int
                 ViewMatrix =
                     BaseAddress +
-                    0x3514BE8; // 10.25.348.1797// B9 ? ? ? ? E8 ? ? ? ? B9 ? ? ? ? E9 ? ? ? ? // First result: unk_0x...
+                    0x2f9b4e0;
 
-            public static readonly int UnderMouseObject = BaseAddress + 0x1BF2168; // no find// 8B 0D ? ? ? ? 89 0D
+            public static readonly int UnderMouseObject = BaseAddress + 0x232A7C0;
         }
 
         public class Object
